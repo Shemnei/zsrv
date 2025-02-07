@@ -25,6 +25,7 @@ fn usage() noreturn {
         \\ARGS client:
         \\ IP      IP address of the server
         \\ PORT    Port of the server
+        \\
     ;
     std.debug.print(usage_str, .{});
     std.process.exit(1);
